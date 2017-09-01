@@ -3,7 +3,7 @@
 import MySQLdb
 
 try:
-    conn=MySQLdb.connect(host='localhost',user='root',passwd='Intel123',port=3306, charset='utf8')
+    conn=MySQLdb.connect(host='localhost',user='root',passwd='154625424',port=3306, charset='utf8')
     cur=conn.cursor()
     conn.select_db('live_portal')
     count=cur.execute('select * from live_rooms')
